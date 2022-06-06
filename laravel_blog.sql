@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 06, 2022 at 09:47 AM
+-- Generation Time: Jun 06, 2022 at 10:26 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.1
 
@@ -71,7 +71,7 @@ INSERT INTO `blogs` (`id`, `user_id`, `title`, `type`, `description`, `picture`,
 (2, 1, 'Java', 'Education', 'Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA),[17] meaning that compiled Java code can run on all platforms that support Java without the need to recompile.[18] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub,[19][20] particularly for client–server web applications, with a reported 9 million developers', 'image/blog/1734857020080929.png', '2022-06-05 22:39:42', '2022-06-05 22:39:42'),
 (3, 2, 'Cricket', 'Sports', 'Cricket is a bat-and-ball game played between two teams of eleven players each on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps. The game proceeds when a player on the fielding team, called the bowler, \"bowls\" (propels) the ball from one end of the pitch towards the wicket at the other end, with an \"over\" being completed once they have legally done so six times. The batting side has one player at each end of the pitch, with the player at the opposite end of the pitch from the bowler aiming to strike the ball with a bat. The batting side scores runs when either the bowler unfairly bowls the ball to the batter, the ball reaches the boundary of the field', 'image/blog/1734857108412932.jpg', '2022-06-05 22:41:06', '2022-06-05 22:41:06'),
 (4, 2, 'Caram', 'Sports', 'Caram was drafted by Meralco Bolts of the Philippine Basketball Association (PBA). In the 2013-14 Philippine Cup, he finished with seven points, three rebounds and three assists, plus a late three-pointer in the fourth that iced the win for Meralco against the Alaska Aces.[3]\r\n\r\nIn the 2017-18 Philippine Cup, Caram had 16 points in their first game against Barangay Ginebra since their Finals series, where Meralco lost.[4]\r\n\r\nIn the 2019 Governors\' Cup, he became the shortest player to score 30 points in a game, with 16 of those points coming in the fourth quarter.[5] For that performance, he was named Player of the Week.[6] Following that conference, he was signed to a two-year extension.', 'image/blog/1734857198099560.jpg', '2022-06-05 22:42:32', '2022-06-05 22:42:32'),
-(5, 3, 'PHP', 'Education', 'PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or as a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code – which may be any type of data, such as generated HTML or binary image data – would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist which can be employed to orchestrate or facilitate the generation of that response. Additionally, PHP can be used for many programming tasks outside the web context, such as standalone graphical applications[11] and robotic drone control.[12] PHP code can also be directly executed from the command line.', 'image/blog/1734869936591909.png', '2022-06-05 22:43:54', '2022-06-06 02:05:00');
+(5, 3, 'PHP', 'Education', 'PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or as a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code – which may be any type of data, such as generated HTML or binary image data – would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist which can be employed to orchestrate or facilitate the generation of that response. Additionally, PHP can be used for many programming tasks outside the web context, such as standalone graphical applications[11] and robotic drone control.[12] PHP code can also be directly executed from the command line.', 'image/blog/1734869936591909.png', '2022-06-05 22:43:54', '2022-06-06 02:29:23');
 
 -- --------------------------------------------------------
 
@@ -185,10 +185,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `role_as`, `name`, `email`, `email_verified_at`, `password`, `picture`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 0, 'henil', 'henil@gmail.com', NULL, '$2y$10$M5.XhP5GMA1aVjJdZoVYnOM1VoBMaKhlBAwEgRmxIyRqdm1u2Rcp6', 'image/user/1734865354368477.jpeg', NULL, '2022-06-05 22:32:41', '2022-06-05 22:32:41'),
-(2, 0, 'Nikul', 'nikul@gmail.com', NULL, '$2y$10$jhl.K4a3VjPJjor4ob4dCOoYSbM3YXF7GGG4GHJGeyUOEREbdcUKK', NULL, NULL, '2022-06-05 22:40:01', '2022-06-05 22:40:01'),
-(3, 0, 'milan', 'milan@gmail.com', NULL, '$2y$10$vRcNpbkopQ85eiFqG63SReki9rvWp3NG6JXUenCZVPdOOF8wycVXG', NULL, NULL, '2022-06-05 22:42:52', '2022-06-05 22:42:52'),
-(4, 1, 'admin', 'admin@gmail.com', NULL, '$2y$10$M5.XhP5GMA1aVjJdZoVYnOM1VoBMaKhlBAwEgRmxIyRqdm1u2Rcp6', NULL, NULL, NULL, NULL);
+(1, 0, 'henil', 'henil@gmail.com', NULL, '$2y$10$M5.XhP5GMA1aVjJdZoVYnOM1VoBMaKhlBAwEgRmxIyRqdm1u2Rcp6', 'image/user/1734872742361970.jpg', NULL, '2022-06-05 22:32:41', '2022-06-05 22:32:41'),
+(2, 0, 'Nikul', 'nikul@gmail.com', NULL, '$2y$10$jhl.K4a3VjPJjor4ob4dCOoYSbM3YXF7GGG4GHJGeyUOEREbdcUKK', 'image/user/1734872643390107.jpg', NULL, '2022-06-05 22:40:01', '2022-06-05 22:40:01'),
+(3, 0, 'milan', 'milan@gmail.com', NULL, '$2y$10$vRcNpbkopQ85eiFqG63SReki9rvWp3NG6JXUenCZVPdOOF8wycVXG', 'image/user/1734873098867207.jpg', NULL, '2022-06-05 22:42:52', '2022-06-05 22:42:52'),
+(4, 1, 'admin', 'admin@gmail.com', NULL, '$2y$10$M5.XhP5GMA1aVjJdZoVYnOM1VoBMaKhlBAwEgRmxIyRqdm1u2Rcp6', 'image/user/1734872807795250.jpg', NULL, NULL, NULL);
 
 --
 -- Indexes for dumped tables
