@@ -1,0 +1,61 @@
+.red
+{
+    color: red;
+}
+.center
+{
+    text-align: center;
+}
+.left
+{
+    text-align: left;
+}
+.justify
+{
+    text-align: justify;
+}
+.radius
+{
+    border-radius: 2%;
+}
+
+a{
+text-decoration: none;
+}
+
+/* fore hide full discription show only short desc.. */
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-text span {
+    color:#000;
+    font-size: 16px;
+}
+a:hover span{
+    color: #f33c3c;
+}
+.blog-text .blog-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #272727;
+}
+.blog-text p {
+    color: black;
+    font-size: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-text a {
+    color: #0f0f0f;
+}
+
+
+.w-5 {
+    display: none;
+}
